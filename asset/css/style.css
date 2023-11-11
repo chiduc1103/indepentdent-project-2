@@ -2,3 +2,478 @@ body {
   font-size: 1.6rem;
   font-family: "Public Sans", sans-serif;
 }
+/* COMMON */
+.button {
+  width: 173px;
+  height: 57px;
+  border-radius: 40px;
+  background: #143c3c;
+  color: #ffffff;
+  display: inline-flex;
+  justify-content: CENTER;
+  align-items: center;
+}
+.round-button {
+  width: 54px;
+  height: 54px;
+  top: 79px;
+  left: 1067px;
+  angle: -180 deg;
+}
+.header-fixed {
+  position: relative;
+  padding-top: 30px;
+  display: Flex;
+  margin-top: 20px;
+}
+.header-fixed .nav {
+  display: flex;
+}
+.header-fixed .logo {
+  margin-left: 30px;
+  margin-right: 350px;
+}
+/* NAV */
+.nav .right {
+  gap: 30px;
+}
+.nav .element {
+  margin-right: 30px;
+}
+.nav .home {
+  color: red;
+}
+.nav .home::after {
+  position: absolute;
+  bottom: -30px;
+  left: 543px;
+  color: green;
+  content: "";
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  width: 40px;
+  height: 5px;
+
+  background: green;
+}
+.nav .button {
+  margin-left: 105px;
+  width: 173px;
+  height: 57px;
+  left: 965px;
+  border-radius: 40px;
+  background: #143c3c;
+  color: #ffffff;
+  display: inline-flex;
+  justify-content: CENTER;
+  align-items: center;
+  top: 15px;
+  position: absolute;
+}
+/* HERO */
+.hero {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+}
+
+.hero .left {
+  margin-left: 30px;
+  margin-right: 100px;
+}
+.hero .title {
+  width: 368px;
+  margin-bottom: 30px;
+  font-family: Public Sans;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 30px;
+}
+.hero .media {
+  margin-left: 220px;
+  width: 48%;
+}
+.hero .left-img {
+  position: absolute;
+  left: 460px;
+}
+
+.hero .mid-img {
+  position: absolute;
+  top: 100px;
+  right: 298px;
+}
+.hero .right-img {
+  position: absolute;
+  right: 20px;
+}
+.hero .detail {
+  font-family: Public Sans;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 341px;
+}
+.hero .action {
+  display: flex;
+  margin-top: 30px;
+}
+.hero .button {
+  margin-right: 35px;
+}
+.hero .decor-top {
+  position: absolute;
+  left: 300px;
+  top: -50px;
+}
+.hero .decor-top-rope {
+  position: absolute;
+  left: 341px;
+  top: -40px;
+}
+.hero .decor-bottom {
+  position: absolute;
+  bottom: -250px;
+  right: 113px;
+}
+.hero .decor-bottom-rope {
+  position: absolute;
+  bottom: -280px;
+  left: 520px;
+}
+.footer-hero {
+  margin-top: 360px;
+  margin-left: 65px;
+}
+/* SERVICE */
+.service {
+  margin-left: 30px;
+  margin-top: 100px;
+  position: relative;
+}
+.service .top {
+  display: flex;
+}
+.service .detail {
+  margin-top: 40px;
+
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 520px;
+}
+.service .round-button {
+  display: flex;
+  position: absolute;
+  top: 0px;
+}
+.service .left-button {
+  margin-right: 25px;
+}
+.service .foot {
+  gap: 45px;
+  display: flex;
+  margin-top: 80px;
+}
+.service .thumbnail {
+  width: 370px;
+  height: 454px;
+}
+.service .media {
+  width: 370px;
+  height: 454px;
+}
+.service .media:hover {
+  background-color: grey;
+  cursor: pointer;
+  box-shadow: 10px 6px grey;
+  color: orangered;
+}
+.service .title {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.service .detail-left {
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.service .detail {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 268px;
+  height: 72px;
+  top: 600px;
+}
+/* INTRODUCE */
+.introduce {
+  width: 1140px;
+  margin-top: 120px;
+  position: relative;
+  display: flex;
+}
+
+.introduce .media {
+  display: flex;
+  width: 48%;
+}
+.introduce .intro-img-left {
+  width: 445px;
+  height: 712px;
+  border-radius: 210px;
+}
+.introduce .intro-img-right {
+  width: 500px;
+  height: 712px;
+  padding-right: 30px;
+
+  border-radius: 210px;
+  position: absolute;
+  top: -85px;
+  left: 260px;
+}
+.introduce .intro-rope {
+  position: absolute;
+  width: 300px;
+  left: 165px;
+  top: 10px;
+}
+.introduce .text {
+  margin-top: 50px;
+  margin-left: 180px;
+  width: 551px;
+}
+.introduce .pre-title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.introduce .title {
+  width: 500px;
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.introduce .detail {
+  //styleName: Paragraph/h4 16px medium;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.introduce .statics {
+  display: flex;
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.introduce .detail {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.introduce .describe {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+
+  color: #7d8188;
+}
+.introduce .statics {
+  font-family: Poppins;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 20px;
+}
+.introduce .number {
+  margin-right: 15px;
+}
+.introduce .number-1 {
+  margin-bottom: 20px;
+}
+.introduce .describe-1 {
+  margin-bottom: 20px;
+}
+.introduce .box {
+  width: 143px;
+  height: 144px;
+
+  border-radius: 8px;
+  position: absolute;
+  left: 500px;
+  background: white;
+  top: 400px;
+}
+.introduce .box .title {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.introduce .box .statics {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.introduce .box .title {
+  font-family: Public Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 22px;
+}
+.introduce .box .detail {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 20px;
+}
+.introduce .box .statics {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 18px;
+}
+.introduce .box .under-img {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  margin-left: 100px;
+  width: 41px;
+  height: 14px;
+}
+.introduce .box .foot {
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.introduce .box .foot::before {
+  position: absolute;
+  bottom: 23px;
+  left: 0;
+  color: green;
+  content: "";
+  display: inline-block;
+  margin-right: 8px;
+  margin-bottom: 3px;
+  width: 5px;
+  height: 5px;
+  background: green;
+  border-radius: 20px;
+}
+
+/* PROCESS */
+.process .title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.process .detail {
+  font-family: Poppins;
+  width: 477px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.process .idea {
+  display: flex;
+  justify-content: space-between;
+  height: 185px;
+  position: relative;
+  margin-top: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.process .left {
+  display: inline-flex;
+}
+
+.process .number {
+  margin-left: 40px;
+  font-family: Poppins;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 92px;
+}
+.process .text {
+  margin-left: 100px;
+  margin-top: 12px;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+.process .men {
+  position: absolute;
+
+  bottom: 0px;
+
+  right: 0px;
+}
